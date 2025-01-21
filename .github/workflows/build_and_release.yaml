@@ -6,6 +6,11 @@ on:
       - main
     paths:
       - 'BuildLog.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'BuildLog.md'
 env:
   BUILD_TYPE: Release
 
